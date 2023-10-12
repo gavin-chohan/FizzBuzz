@@ -1,3 +1,2 @@
 *DS_Store
-/fizzbuzz.xcodeproj/project.xcworkspace/xcuserdata
-/fizzbuzz.xcodeproj/xcuserdata
+*xcworkspace/xcuserdata/*
