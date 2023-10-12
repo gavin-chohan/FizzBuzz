@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct FizzBuzzDecider {
+    func fizzes (numbers: [Int]) -> [String] {
+        return numbers.map { number in
+            return "\(number)"
+        }
+    }
+}
