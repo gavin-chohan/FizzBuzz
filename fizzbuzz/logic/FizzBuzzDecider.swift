@@ -13,15 +13,14 @@ struct FizzBuzzDecider {
             
             // Fizz
             let remainderWhenDividedByThree = number % 3
-            print("\(remainderWhenDividedByThree)")
             
             // Buzz
             let remainderWhenDividedByFive = number % 5
-            print("\(remainderWhenDividedByFive)")
             
             // FizzBuzz
-            let remainderWhenDividedByThreeAndFive = number % 3; number % 5
-            print ("\(remainderWhenDividedByThreeAndFive)")
+            if number % 3 == 0 && number % 5 == 0 {
+                return "FizzBuzz"
+            }
             
             if remainderWhenDividedByThree == 0 {
                 return "Fizz"
@@ -29,10 +28,6 @@ struct FizzBuzzDecider {
             
             if remainderWhenDividedByFive == 0 {
                 return "Buzz"
-            }
-            
-            if remainderWhenDividedByThreeAndFive == 0 {
-                return "FizzBuzz"
             }
                 
             return "\(number)"
